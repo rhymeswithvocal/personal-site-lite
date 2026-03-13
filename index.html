@@ -64,6 +64,20 @@
       max-width: 400px;
     }
 
+    @media (min-width: 640px) {
+      .avatar {
+        width: 160px;
+        height: 160px;
+        border-radius: 16px;
+      }
+
+      .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 560px;
+      }
+    }
+
     .link-btn {
       display: block;
       width: 100%;
@@ -103,7 +117,7 @@
     <!-- Replace src with your photo, or remove the <img> entirely -->
     <img class="avatar" src="face.jpg" alt="Profile photo" onerror="this.style.display='none'" />
     <div class="name">Charlie Trochlil</div>
-    <div class="bio">Hello! You might be here because you're a neighbor, an employer, or a friend from online. I hope you can find what you're looking for!</div>
+    <div class="bio">Hello! You might be here because you're a neighbor, a prospective employer, or a friend from online. I hope you can find what you're looking for!</div>
   </div>
 
   <div class="links">
